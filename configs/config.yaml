@@ -10,11 +10,11 @@ artifacts:
   BASE_LOG_DIR: base_model_dir
   TENSORBOARD_ROOT_LOG_DIR: tensorboard_log_dir
   CALLBACKS_DIR: callbacks
+  INPUT_DATA: raw_data
+  TRAIN_DATA: train.csv
+  TEST_DATA: test.csv
 
 source_download_dirs:
-  - path_to_data_1
-  - path_to_data_1
+  TRAIN_DATA: data/train.csv
+  TEST_DATA: data/test.csv
 
-local_data_dirs:
-  - path_to_local_data_1
-  - path_to_local_data_2

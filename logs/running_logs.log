@@ -1,0 +1,15 @@
+[2023-03-11 11:32:20,238: INFO: stage_01_load_local_data]: 
+********************
+[2023-03-11 11:32:20,239: INFO: stage_01_load_local_data]: >>>>> stage STAGE_001_LOAD_DATA started <<<<<
+[2023-03-11 11:32:27,196: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-03-11 11:32:46,539: INFO: common]: yaml file: params.yaml loaded successfully
+[2023-03-11 11:33:22,032: INFO: stage_01_load_local_data]: Train and test data loaded successfully
+[2023-03-11 11:34:39,888: INFO: stage_01_load_local_data]: 
+********************
+[2023-03-11 11:34:39,888: INFO: stage_01_load_local_data]: >>>>> stage STAGE_001_LOAD_DATA started <<<<<
+[2023-03-11 11:34:41,717: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-03-11 11:34:42,238: INFO: common]: yaml file: params.yaml loaded successfully
+[2023-03-11 11:34:46,002: INFO: stage_01_load_local_data]: Train and test data loaded successfully
+[2023-03-11 11:35:04,247: INFO: common]: created directory at: artifacts\raw_data
+[2023-03-11 11:35:45,438: INFO: stage_01_load_local_data]: >>>>> stage STAGE_001_LOAD_DATA completed!<<<<<
+
