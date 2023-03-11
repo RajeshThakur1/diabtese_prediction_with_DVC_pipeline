@@ -13,6 +13,7 @@ artifacts:
   INPUT_DATA: raw_data
   TRAIN_DATA: train.csv
   TEST_DATA: test.csv
+  PREPARED_DATA: prepared
 
 source_download_dirs:
   TRAIN_DATA: data/train.csv

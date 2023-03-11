@@ -13,3 +13,21 @@
 [2023-03-11 11:35:04,247: INFO: common]: created directory at: artifacts\raw_data
 [2023-03-11 11:35:45,438: INFO: stage_01_load_local_data]: >>>>> stage STAGE_001_LOAD_DATA completed!<<<<<
 
+[2023-03-11 11:59:22,860: INFO: stage_02_prepare_template]: 
+********************
+[2023-03-11 11:59:23,157: INFO: stage_02_prepare_template]: >>>>> stage STAGE_002_prepare_data started <<<<<
+[2023-03-11 11:59:26,209: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-03-11 11:59:27,573: INFO: common]: yaml file: params.yaml loaded successfully
+[2023-03-11 12:00:13,406: INFO: stage_02_prepare_template]: 
+********************
+[2023-03-11 12:00:13,407: INFO: stage_02_prepare_template]: >>>>> stage STAGE_002_prepare_data started <<<<<
+[2023-03-11 12:00:15,220: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-03-11 12:00:15,963: INFO: common]: yaml file: params.yaml loaded successfully
+[2023-03-11 12:02:17,585: INFO: stage_02_prepare_template]: 
+********************
+[2023-03-11 12:02:17,586: INFO: stage_02_prepare_template]: >>>>> stage STAGE_002_prepare_data started <<<<<
+[2023-03-11 12:02:18,228: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-03-11 12:02:18,229: INFO: common]: yaml file: params.yaml loaded successfully
+[2023-03-11 12:02:21,244: INFO: common]: created directory at: artifacts\prepared
+[2023-03-11 12:02:43,732: INFO: stage_02_prepare_template]: >>>>> stage STAGE_002_prepare_data completed!<<<<<
+
