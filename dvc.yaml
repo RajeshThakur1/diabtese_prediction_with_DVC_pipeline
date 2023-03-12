@@ -1,8 +1,21 @@
 # add stages here 
-# stages:
-#   stage_name:
-#     cmd: python src/stage_01______.py
-#     deps:
-#     - src/stage_01______.py
-#     outs:
-#     - output_data_of_file_path
+ stages:
+   load_local_data:
+     cmd: python src/stage_01_load_local_data.py
+     deps:
+     - src/stage_01_load_local_data.py
+     - data/train.csv
+     - data/test.csv
+     outs:
+     - artifacts/raw_data/train.csv
+     - artifacts/raw_data/test.csv
+
+   prepare_data:
+     cmd: python src/stage_02_prepare_template.py
+     deps:
+       - src/stage_02_prepare_template.py
+       - artifacts/raw_data/train.csv
+       - artifacts/raw_data/test.csv
+     outs:
+       - artifacts/prepared/train.csv
+       - artifacts/prepared/test.csv
