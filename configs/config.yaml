@@ -19,3 +19,5 @@ source_download_dirs:
   TRAIN_DATA: data/train.csv
   TEST_DATA: data/test.csv
 
+metrics:
+  SCORES: scores.json

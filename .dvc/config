@@ -1,2 +1,5 @@
 [core]
+    remote = remote_storage
     autostage = true
+['remote "remote_storage"']
+    url = s3://ai-admin123/datasets/DVC/dvc_remote_storage/

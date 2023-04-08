@@ -4,6 +4,7 @@ dvc
 pandas
 numpy
 PyYAML
+sklearn
 mkdocs-material
 ### local packages -
 -e . # << uncomment this to install from setup.py
